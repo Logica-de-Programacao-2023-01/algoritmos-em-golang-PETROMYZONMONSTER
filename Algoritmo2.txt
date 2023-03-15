@@ -1,0 +1,10 @@
+package main
+
+import "fmt"
+
+func main() {
+	var n1 float64
+	fmt.Println("Digite o número:")
+	fmt.Scan(&n1)
+	fmt.Println("Seus resultados são:", n1*2, n1*3, n1*4)
+}
