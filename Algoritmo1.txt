@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+func main() {
+	var n1 float64
+	var n2 float64
+	var n3 float64
+	fmt.Println("Digite o primeiro número:")
+	fmt.Scan(&n1)
+	fmt.Println("Digite o segundo número:")
+	fmt.Scan(&n2)
+	fmt.Println("Digite o terceiro número:")
+	fmt.Scan(&n3)
+	fmt.Println("Seu resultado é:", n1+n2+n3)
+}
