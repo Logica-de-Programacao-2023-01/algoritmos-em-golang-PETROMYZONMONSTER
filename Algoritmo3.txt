@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+func main() {
+	var n1 float64
+	var n2 float64
+	fmt.Println("Digite o seu peso:")
+	fmt.Scan(&n1)
+	fmt.Println("Digite a sua altura:")
+	fmt.Scan(&n2)
+	fmt.Println("Seu IMC é:", n1/(n2*n2))
+}
