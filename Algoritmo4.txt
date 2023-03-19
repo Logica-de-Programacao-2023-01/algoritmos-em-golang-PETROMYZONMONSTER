@@ -1,0 +1,20 @@
+import "fmt"
+
+func main() {
+	var n1 float64
+	var n2 float64
+	var n3 float64
+	fmt.Println("Digite o seu primeiro número:")
+	fmt.Scan(&n1)
+	fmt.Println("Digite a seu segundo número")
+	fmt.Scan(&n2)
+	fmt.Println("Digite seu terceiro número:")
+	fmt.Scan(&n3)
+	a := n1 * 2
+	b := n2 * 3
+	c := n3 * 5
+	fmt.Println(
+		"Seu resultado é:",
+		(a+b+c)/10,
+	)
+}
