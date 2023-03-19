@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+func main() {
+	var n1 float64
+	fmt.Println("Digite o preço do produto")
+	fmt.Scan(&n1)
+	fmt.Println(
+		"Seu novo preço, com um desconto de 10% é:",
+		n1-(0.10*n1),
+	)
+}
