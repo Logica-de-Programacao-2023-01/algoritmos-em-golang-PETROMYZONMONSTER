@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+func main() {
+	var n1 float64
+	fmt.Println("Digite a sua idade em anos:")
+	fmt.Scan(&n1)
+	fmt.Println(
+		"Sua idade em dias é:",
+		n1*365,
+	)
+}
