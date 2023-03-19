@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+func main() {
+	var n1 float64
+	fmt.Println("Digite o seu número")
+	fmt.Scan(&n1)
+	fmt.Println(
+		"Seu sucessor e antecessor são, respectivamente:",
+		n1+1, "e", n1-1,
+	)
+}
