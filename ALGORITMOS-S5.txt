@@ -1,0 +1,16 @@
+//Faça um algoritmo que leia um número inteiro e mostre se ele é múltiplo de 3 e de 5 ao mesmo tempo.
+
+package main
+
+import "fmt"
+
+func main() {
+	var n1 int
+	fmt.Println("Digite o seu número")
+	fmt.Scan(&n1)
+	if n1%3 == 0 && n1%5 == 0 {
+		fmt.Println("Seu número é múltiplo de 3 e 5.")
+	} else {
+		fmt.Println("Seu número não é múltiplo de 3 e 5.")
+	}
+}
