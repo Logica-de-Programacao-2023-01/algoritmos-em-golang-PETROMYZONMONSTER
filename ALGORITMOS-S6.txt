@@ -1,0 +1,23 @@
+//Faça um algoritmo que leia dois números inteiros e mostre o resultado da multiplicação entre eles, se ambos forem positivos; ou a soma, se pelo menos um deles for negativo.
+
+package main
+
+import "fmt"
+
+func main() {
+	var n1 int
+	var n2 int
+	fmt.Println("Digite o primeiro número:")
+	fmt.Scan(&n1)
+	fmt.Println("Digite o segundo número:")
+	fmt.Scan(&n2)
+	x := n1 * n2
+	y := n1 + n2
+
+	if n1 >= 1 && n2 >= 1 {
+		fmt.Println("Os dois números são positivos, aqui está o resultado da multiplicação entre os mesmos:", x)
+	} else {
+		fmt.Println("Pelo menos um dos números não é positivo, aqui está a soma entre os mesmos:", y)
+
+	}
+}
