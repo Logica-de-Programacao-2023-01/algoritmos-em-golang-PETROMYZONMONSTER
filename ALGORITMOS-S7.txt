@@ -1,0 +1,18 @@
+//Faça um algoritmo que leia o salário de um funcionário e calcule o seu novo salário com um aumento de 10% se o salário for menor que R$ 1000,00; ou de 5% se o salário for maior ou igual a R$ 1000,00.
+
+package main
+
+import "fmt"
+
+func main() {
+	var n1 float64
+	fmt.Println("Digite o seu salário")
+	fmt.Scan(&n1)
+	x := (n1 * 0.10) + n1
+	y := (n1 * 0.05) + n1
+	if n1 < 1000 {
+		fmt.Println("Baseado no valor que recebia, aqui está seu novo salário, com um aumento de 10%:", x)
+	} else if n1 >= 1000 {
+		fmt.Println("Baseado no valor que recebia, aqui está seu novo salário, com um aumento de 5%:", y)
+	}
+}
