@@ -1,0 +1,27 @@
+//Faça um algoritmo que leia um número inteiro entre 1 e 7 e mostre o dia da semana correspondente (1 = domingo, 2 = segunda-feira, etc.).
+
+package main
+
+import "fmt"
+
+func main() {
+	var dia int
+	fmt.Println("Digite o seu número:")
+	fmt.Scan(&dia)
+	switch {
+	case dia == 1:
+		fmt.Println("Esse número se equivale a: Domingo.")
+	case dia == 2:
+		fmt.Println("Esse número se equivale a: Segunda-feira.")
+	case dia == 3:
+		fmt.Println("Esse número se equivale a: Terça-feira.")
+	case dia == 4:
+		fmt.Println("Esse número se equivale a: Quarta-feira.")
+	case dia == 5:
+		fmt.Println("Esse número se equivale a: Quinta-feira.")
+	case dia == 6:
+		fmt.Println("Esse número se equivale a: Sexta-feira.")
+	case dia == 7:
+		fmt.Println("Esse número se equivale a: Sábado.")
+	}
+}
