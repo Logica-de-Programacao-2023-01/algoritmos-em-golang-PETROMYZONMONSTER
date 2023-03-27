@@ -1,0 +1,21 @@
+//Faça um algoritmo que leia três números reais e mostre-os em ordem crescente.
+
+package main
+
+import "fmt"
+
+func main() {
+	var n1 int
+	fmt.Println("Digite o seu número:")
+	fmt.Scan(&n1)
+	switch {
+	case n1 <= 9:
+		fmt.Println("Sua classificação é: Mirim.")
+	case n1 >= 10 && n1 <= 13:
+		fmt.Println("Sua classificação é: Infantil.")
+	case n1 >= 14 && n1 <= 17:
+		fmt.Println("Sua classificação é: Juvenil.")
+	case n1 >= 18:
+		fmt.Println("Sua classificação é: Adulto.")
+	}
+}
